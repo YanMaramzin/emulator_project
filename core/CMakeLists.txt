@@ -11,6 +11,9 @@ add_library(core STATIC
     include/simulatorengine.h
     include/configloader.h
     src/configloader.cpp
+    src/simulatorengine.cpp
+    src/deviceinstance.cpp
+    src/pluginmanager.cpp
 )
 
 target_link_libraries(core PUBLIC Qt6::Core)
